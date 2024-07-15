@@ -1,0 +1,2302 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“cv::NormTypes”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/base.hpp"
+                },
+                "region": {
+                  "startLine": 384,
+                  "startColumn": 39,
+                  "endLine": 384,
+                  "endColumn": 39
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“cv::AccessFlag”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/mat.hpp"
+                },
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 1,
+                  "endLine": 66,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??7cv@@YA_NABW4AccessFlag@0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“cv::debug_build_guard::_InputArray::KindFlag”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/mat.hpp"
+                },
+                "region": {
+                  "startLine": 266,
+                  "startColumn": 1,
+                  "endLine": 266,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??7debug_build_guard@cv@@YA_NABW4KindFlag@_InputArray@01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“cv::UMatData::MemoryFlag”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/mat.hpp"
+                },
+                "region": {
+                  "startLine": 583,
+                  "startColumn": 1,
+                  "endLine": 583,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??7cv@@YA_NABW4MemoryFlag@UMatData@0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cv::MatStep::buf。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1239,
+                  "startColumn": 10,
+                  "endLine": 1239,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MatStep@cv@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::MatStep::buf"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cv::MatStep::buf。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1245,
+                  "startColumn": 10,
+                  "endLine": 1245,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MatStep@cv@@QAE@I@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::MatStep::buf"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“cv::Formatter::FormatType”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/operations.hpp"
+                },
+                "region": {
+                  "startLine": 431,
+                  "startColumn": 16,
+                  "endLine": 431,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?format@cv@@YA?AU?$Ptr@VFormatted@cv@@@1@ABV_InputArray@debug_build_guard@1@W4FormatType@Formatter@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "可能不会 throw 此类型的函数。将其声明为 \"noexcept\" (f.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/async.hpp"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 5,
+                  "endLine": 73,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0AsyncArray@cv@@QAE@$$QAV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cvflann::UntypedMatrix::type。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/flann/matrix.h"
+                },
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 5,
+                  "endLine": 98,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0UntypedMatrix@cvflann@@QAE@PAXJJ@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cvflann::UntypedMatrix::type"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“cvflann::flann_datatype_t”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/flann/saving.h"
+                },
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 58,
+                  "endLine": 51,
+                  "endColumn": 65
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?type@?$Datatype@D@cvflann@@SA?AW4flann_datatype_t@2@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/flann/dist.h"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 76,
+                  "endLine": 85,
+                  "endColumn": 80
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??$round@_J@cvflann@@YA_JM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“cvflann::flann_algorithm_t”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/flann/kdtree_index.h"
+                },
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 32,
+                  "endLine": 57,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0KDTreeIndexParams@cvflann@@QAE@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“cvflann::flann_centers_init_t”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/flann/kmeans_index.h"
+                },
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 5,
+                  "endLine": 63,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0KMeansIndexParams@cvflann@@QAE@HHW4flann_centers_init_t@1@MH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cvflann::lsh::LshStats::bucket_size_mean_。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 1,
+                  "endLine": 102,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_mean_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cvflann::lsh::LshStats::bucket_size_min_。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 1,
+                  "endLine": 102,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_min_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cvflann::lsh::LshStats::n_buckets_。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 1,
+                  "endLine": 102,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::n_buckets_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cvflann::lsh::LshStats::bucket_size_std_dev。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 1,
+                  "endLine": 102,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_std_dev"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cvflann::lsh::LshStats::bucket_size_max_。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 1,
+                  "endLine": 102,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_max_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cvflann::lsh::LshStats::bucket_size_median_。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 1,
+                  "endLine": 102,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_median_"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/objdetect.hpp"
+                },
+                "region": {
+                  "startLine": 154,
+                  "startColumn": 37,
+                  "endLine": 154,
+                  "endColumn": 88
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??RSimilarRects@cv@@QBE_NABV?$Rect_@H@1@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“cv::HOGDescriptor::HistogramNormType”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/objdetect.hpp"
+                },
+                "region": {
+                  "startLine": 415,
+                  "startColumn": 26,
+                  "endLine": 415,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0HOGDescriptor@cv@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“cv::DetectionBasedTracker::ObjectStatus”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/objdetect/detection_based_tracker.hpp"
+                },
+                "region": {
+                  "startLine": 150,
+                  "startColumn": 13,
+                  "endLine": 150,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ExtObject@DetectionBasedTracker@cv@@QAE@HV?$Rect_@H@2@W4ObjectStatus@12@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“cv::cuda::Event::CreateFlags”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/cuda.hpp"
+                },
+                "region": {
+                  "startLine": 1015,
+                  "startColumn": 1,
+                  "endLine": 1015,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??7cuda@cv@@YA_NABW4CreateFlags@Event@01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“cv::cuda::HostMem::AllocType”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/cuda.inl.hpp"
+                },
+                "region": {
+                  "startLine": 501,
+                  "startColumn": 10,
+                  "endLine": 501,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0HostMem@cuda@cv@@QAE@W4AllocType@012@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“cv::cuda::FeatureSet”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/cuda.inl.hpp"
+                },
+                "region": {
+                  "startLine": 734,
+                  "startColumn": 18,
+                  "endLine": 734,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?supports@DeviceInfo@cuda@cv@@QBE_NW4FeatureSet@23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cv::detail::RotationWarperBase<cv::detail::CompressedRectilinearProjector>::projector_。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/stitching/detail/warpers.hpp"
+                },
+                "region": {
+                  "startLine": 188,
+                  "startColumn": 1,
+                  "endLine": 188,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$RotationWarperBase@UCompressedRectilinearProjector@detail@cv@@@detail@cv@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::detail::RotationWarperBase<cv::detail::CompressedRectilinearProjector>::projector_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cv::detail::RotationWarperBase<cv::detail::CompressedRectilinearPortraitProjector>::projector_。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/stitching/detail/warpers.hpp"
+                },
+                "region": {
+                  "startLine": 188,
+                  "startColumn": 1,
+                  "endLine": 188,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$RotationWarperBase@UCompressedRectilinearPortraitProjector@detail@cv@@@detail@cv@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::detail::RotationWarperBase<cv::detail::CompressedRectilinearPortraitProjector>::projector_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cv::detail::RotationWarperBase<cv::detail::PaniniProjector>::projector_。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/stitching/detail/warpers.hpp"
+                },
+                "region": {
+                  "startLine": 188,
+                  "startColumn": 1,
+                  "endLine": 188,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$RotationWarperBase@UPaniniProjector@detail@cv@@@detail@cv@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::detail::RotationWarperBase<cv::detail::PaniniProjector>::projector_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cv::detail::RotationWarperBase<cv::detail::PaniniPortraitProjector>::projector_。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/stitching/detail/warpers.hpp"
+                },
+                "region": {
+                  "startLine": 188,
+                  "startColumn": 1,
+                  "endLine": 188,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$RotationWarperBase@UPaniniPortraitProjector@detail@cv@@@detail@cv@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::detail::RotationWarperBase<cv::detail::PaniniPortraitProjector>::projector_"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“cv::detail::DpSeamFinder::CostFunction”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/stitching/detail/seam_finders.hpp"
+                },
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 41,
+                  "endLine": 128,
+                  "endColumn": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?costFunction@DpSeamFinder@detail@cv@@QBE?AW4CostFunction@123@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“cv::InterpolationFlags”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/stitching.hpp"
+                },
+                "region": {
+                  "startLine": 201,
+                  "startColumn": 61,
+                  "endLine": 201,
+                  "endColumn": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?interpolationFlags@Stitcher@cv@@QBE?AW4InterpolationFlags@2@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“cv::detail::WaveCorrectKind”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/stitching.hpp"
+                },
+                "region": {
+                  "startLine": 204,
+                  "startColumn": 55,
+                  "endLine": 204,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?waveCorrectKind@Stitcher@cv@@QBE?AW4WaveCorrectKind@detail@2@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“cvflann::lsh::LshTable<unsigned char>::SpeedLevel”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 280,
+                  "startColumn": 9,
+                  "endLine": 280,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?initialize@?$LshTable@E@lsh@cvflann@@AAEXI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6269",
+          "message": {
+            "text": "运算顺序可能不正确: 已忽略取消引用。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/flann/any.h"
+                },
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 10,
+                  "endLine": 120,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?move@?$big_any_policy@W4flann_algorithm_t@cvflann@@@anyimpl@cvflann@@UAEXPBQAXPAPAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6269",
+          "message": {
+            "text": "运算顺序可能不正确: 已忽略取消引用。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/flann/any.h"
+                },
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 10,
+                  "endLine": 120,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?move@?$big_any_policy@W4flann_centers_init_t@cvflann@@@anyimpl@cvflann@@UAEXPBQAXPAPAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cv::AutoBuffer<__int64,1>::buf。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/utility.hpp"
+                },
+                "region": {
+                  "startLine": 971,
+                  "startColumn": 30,
+                  "endLine": 971,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$AutoBuffer@_J$00@cv@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::AutoBuffer<__int64,1>::buf"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cv::AutoBuffer<double,1>::buf。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/utility.hpp"
+                },
+                "region": {
+                  "startLine": 971,
+                  "startColumn": 30,
+                  "endLine": 971,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$AutoBuffer@N$00@cv@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::AutoBuffer<double,1>::buf"
+          }
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "for 循环定义错误: 初始条件不满足测试。 循环体未执行。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 578,
+                  "startColumn": 5,
+                  "endLine": 578,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$02$00@cv@@QAE@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "索引“3”超出了“0”至“2”的有效范围(对于可能在堆栈中分配的缓冲区“this->val”)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 578,
+                  "startColumn": 39,
+                  "endLine": 578,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$02$00@cv@@QAE@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "for 循环定义错误: 初始条件不满足测试。 循环体未执行。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 578,
+                  "startColumn": 5,
+                  "endLine": 578,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$02$00@cv@@QAE@NNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "索引“3”超出了“0”至“2”的有效范围(对于可能在堆栈中分配的缓冲区“this->val”)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 578,
+                  "startColumn": 39,
+                  "endLine": 578,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$02$00@cv@@QAE@NNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "for 循环定义错误: 初始条件不满足测试。 循环体未执行。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 570,
+                  "startColumn": 5,
+                  "endLine": 570,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$01$00@cv@@QAE@MM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "索引“2”超出了“0”至“1”的有效范围(对于可能在堆栈中分配的缓冲区“this->val”)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 570,
+                  "startColumn": 39,
+                  "endLine": 570,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$01$00@cv@@QAE@MM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "for 循环定义错误: 初始条件不满足测试。 循环体未执行。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 570,
+                  "startColumn": 5,
+                  "endLine": 570,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$01$00@cv@@QAE@NN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "索引“2”超出了“0”至“1”的有效范围(对于可能在堆栈中分配的缓冲区“this->val”)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 570,
+                  "startColumn": 39,
+                  "endLine": 570,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$01$00@cv@@QAE@NN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "for 循环定义错误: 初始条件不满足测试。 循环体未执行。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 586,
+                  "startColumn": 5,
+                  "endLine": 586,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$03$00@cv@@QAE@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "索引“4”超出了“0”至“3”的有效范围(对于可能在堆栈中分配的缓冲区“this->val”)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 586,
+                  "startColumn": 39,
+                  "endLine": 586,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$03$00@cv@@QAE@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "for 循环定义错误: 初始条件不满足测试。 循环体未执行。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 586,
+                  "startColumn": 5,
+                  "endLine": 586,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$03$00@cv@@QAE@NNNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "索引“4”超出了“0”至“3”的有效范围(对于可能在堆栈中分配的缓冲区“this->val”)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 586,
+                  "startColumn": 39,
+                  "endLine": 586,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$03$00@cv@@QAE@NNNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30152.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x004BD1C0 -il C:\\Users\\Home\\AppData\\Local\\Temp\\_CL_958cffc4ast -typedil -f main.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930152 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\main.obj -FdDebug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\Home\\source\\repos\\自瞄 -analyze:rulesetdirectory ;D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I D:\\OpenCV\\OpenCV-VC-4.9.0-x64\\build\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/base.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "a9d585be225268fed000911a4416a77a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/mat.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "c8176d954a0cde3e04c9142126b39a9c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/mat.inl.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "045dc0301f2542d0a0bee02245480e2b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/operations.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "7e29fc08b0ac4ca2bdcfc0c510cb99a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/async.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "0d9e1df32cb392502189bff01357763c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/flann/matrix.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "d906d6f8469495a71db9afcbed47c320"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/flann/saving.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "41b093b14b80f766e90519f24b464e59"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/flann/dist.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "ad54897440135ce6d8711fc628056e10"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/flann/kdtree_index.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "2d4317db0d341c15251c115a15e2c138"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/flann/kmeans_index.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "b74ede859def3b7f0df32f14a75ef041"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/flann/lsh_table.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "83c970e8f0dfda2b5109e24a5305f213"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/objdetect.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "2b0c69bc9f1fe32bdf92e0c0c15b0d84"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/objdetect/detection_based_tracker.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "815c6117dd54b4c9f14bb36928141b9b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/cuda.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "ddd8223c3c29d043d1a51c67a18e174b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/cuda.inl.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "7e2953b893c0c3a8d4a86f820e1d8cbd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/stitching/detail/warpers.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "ccda27fbbe839a1694af45fc2e304150"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/stitching/detail/seam_finders.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "9b796f8db66d900bff010d9bb6819de8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/stitching.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "4a8f4920f7637d3d7a4066bcfca0bc39"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/flann/any.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "d6af762a5e6a4eed7c855c9d5774faa7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/utility.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "ad739b952df4612830537ff8ed1a5ef0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/OpenCV/OpenCV-VC-4.9.0-x64/build/include/opencv2/core/matx.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "11861bd2af6ac2d4ec22ac6a1901ed34"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/home/source/repos/自瞄/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "002b9c402239dec7ebf29e038505ca3f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/opencv.hpp"
+          },
+          "hashes": {
+            "md5": "1f992ae0b1ca6c3f09c8d4d16d660363"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/opencv_modules.hpp"
+          },
+          "hashes": {
+            "md5": "1a2317de7a0292224ac5bc4cc7105000"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/core.hpp"
+          },
+          "hashes": {
+            "md5": "ab9db62c66f2d94515c11eec955ec92b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/core/cvdef.h"
+          },
+          "hashes": {
+            "md5": "96405306b16474fe316264f8413fab41"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/core/version.hpp"
+          },
+          "hashes": {
+            "md5": "21a5f632f4043814201a89986a6a5cd1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/core/hal/interface.h"
+          },
+          "hashes": {
+            "md5": "4a49d649a0b7578208733959e8158fed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/core/cv_cpu_dispatch.h"
+          },
+          "hashes": {
+            "md5": "880dbdf4f848eb87cb0b63c3a82e6e72"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/core/cvstd.hpp"
+          },
+          "hashes": {
+            "md5": "5e55536b7431fb1179d5a334ab18c168"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/core/cvstd_wrapper.hpp"
+          },
+          "hashes": {
+            "md5": "20a35ead62ae6a7d27c5cdaf6fcd3b3c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/core/neon_utils.hpp"
+          },
+          "hashes": {
+            "md5": "c8fd59164b24f28d2e476c76ea04440e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/core/vsx_utils.hpp"
+          },
+          "hashes": {
+            "md5": "d81a08ab92a13560c7d3d5c54a23b600"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/core/check.hpp"
+          },
+          "hashes": {
+            "md5": "9dd87b2eecf5ff924bfbb4d3b0eff6db"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/core/traits.hpp"
+          },
+          "hashes": {
+            "md5": "9b4b650b0ef2284fdf7a684fa058095a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/core/saturate.hpp"
+          },
+          "hashes": {
+            "md5": "f2590a08e304472945a1f8f9908e3259"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/core/fast_math.hpp"
+          },
+          "hashes": {
+            "md5": "9c205c5852dc1776c159bca9fa1b4c93"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/core/types.hpp"
+          },
+          "hashes": {
+            "md5": "0f5497157b39ff73a45d34969041f0a4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/core/bufferpool.hpp"
+          },
+          "hashes": {
+            "md5": "b83ce95edbd524cdb43c073a483379d9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/core/persistence.hpp"
+          },
+          "hashes": {
+            "md5": "e1f92a1cf1f70cf4cd3fa7f11fd5c2d4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/core/cvstd.inl.hpp"
+          },
+          "hashes": {
+            "md5": "b910da620ce8d732f0194531bbc40028"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/core/optim.hpp"
+          },
+          "hashes": {
+            "md5": "d0b2d417aa6cccd1bae6ec19215da17f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/core/ovx.hpp"
+          },
+          "hashes": {
+            "md5": "e69559d2017e1f67a5f34cdc9fbede0d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/calib3d.hpp"
+          },
+          "hashes": {
+            "md5": "46a84e64556ba75af34fff4f22cb8e79"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/features2d.hpp"
+          },
+          "hashes": {
+            "md5": "b41015ce1b10fbbbed2ce78f867537c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/miniflann.hpp"
+          },
+          "hashes": {
+            "md5": "04d845c979126b9d6dce49714a265118"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/defines.h"
+          },
+          "hashes": {
+            "md5": "571beb1c79bfbb09ed3e4677b3c2430e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/config.h"
+          },
+          "hashes": {
+            "md5": "d66f2509778619c0602f90eb73062969"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/core/affine.hpp"
+          },
+          "hashes": {
+            "md5": "b29f1e869c65d64d39d91d318e26a59b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/dnn.hpp"
+          },
+          "hashes": {
+            "md5": "114d96369c9b8694517631f09e78bbdb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/dnn/dnn.hpp"
+          },
+          "hashes": {
+            "md5": "6bcd105020e6a0b1e0a1222b3a7f83e0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/dnn/version.hpp"
+          },
+          "hashes": {
+            "md5": "c768a7f8efc3faf1a06d0b07e56b6c4c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/dnn/dict.hpp"
+          },
+          "hashes": {
+            "md5": "3d033be3224d5622751458ae2e7dafbb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/dnn/layer.hpp"
+          },
+          "hashes": {
+            "md5": "64174e75cfee4f809ac58791c46550b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/dnn/dnn.inl.hpp"
+          },
+          "hashes": {
+            "md5": "b827d28f25ea258a87ece8a3f9536737"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/dnn/utils/inference_engine.hpp"
+          },
+          "hashes": {
+            "md5": "5cfe8887c2b83eebb52e97f5e507f9ff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann.hpp"
+          },
+          "hashes": {
+            "md5": "8e3bd8b2b333b3b2f0993ef9f6481024"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/flann_base.hpp"
+          },
+          "hashes": {
+            "md5": "0379337a5af849292199683256770495"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/general.h"
+          },
+          "hashes": {
+            "md5": "9a9720f3c1152d9ff978026ded767bb0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/params.h"
+          },
+          "hashes": {
+            "md5": "4984674f632534827824f659a20144cf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/nn_index.h"
+          },
+          "hashes": {
+            "md5": "2642d05c0696df599aa11183b544993b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/result_set.h"
+          },
+          "hashes": {
+            "md5": "d7c009289457240d6a71146c23ea774a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/all_indices.h"
+          },
+          "hashes": {
+            "md5": "ade5c4a43c445e4cb186a2e1eefa3afe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/dynamic_bitset.h"
+          },
+          "hashes": {
+            "md5": "720e6f274e931a88bcc05891160834b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/heap.h"
+          },
+          "hashes": {
+            "md5": "4e64b1219677a7a63cf5176170d4f37d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/allocator.h"
+          },
+          "hashes": {
+            "md5": "5a08919b308f885d0420664bdbc8d168"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/random.h"
+          },
+          "hashes": {
+            "md5": "da865c3b988ddfe4918264ef9dd72ed9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/kdtree_single_index.h"
+          },
+          "hashes": {
+            "md5": "5006f35c217323064b7a4e3ce6c1b3af"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/logger.h"
+          },
+          "hashes": {
+            "md5": "8004a9da838faf04243b02bc78b47563"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/composite_index.h"
+          },
+          "hashes": {
+            "md5": "7934998a891ba592a76808e0808df2ee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/linear_index.h"
+          },
+          "hashes": {
+            "md5": "497fa6d22b188a336a2452ed37becff7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/hierarchical_clustering_index.h"
+          },
+          "hashes": {
+            "md5": "067b1bc162f6248d731c6dc254632fe3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/lsh_index.h"
+          },
+          "hashes": {
+            "md5": "39e83f5cb0942a4dc58cfbb7177de243"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/autotuned_index.h"
+          },
+          "hashes": {
+            "md5": "5544ce8264752aa3b491635100c9114c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/ground_truth.h"
+          },
+          "hashes": {
+            "md5": "8f7d2241b036f84c527e5ace0bbb1260"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/index_testing.h"
+          },
+          "hashes": {
+            "md5": "290ea47718c8ebb33ea900337525f39d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/timer.h"
+          },
+          "hashes": {
+            "md5": "17087f79ce785bff2980233697dd910c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/flann/sampling.h"
+          },
+          "hashes": {
+            "md5": "46b75e640cccfb523454998ce113b6bc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/highgui.hpp"
+          },
+          "hashes": {
+            "md5": "2934e224909531365f48992d41a4a1b7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/imgcodecs.hpp"
+          },
+          "hashes": {
+            "md5": "6c791776dc5943e528ff1e044cc0344e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/videoio.hpp"
+          },
+          "hashes": {
+            "md5": "ebd458f2f64363a57c9f1fec0319408d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/imgproc.hpp"
+          },
+          "hashes": {
+            "md5": "0899656fe068f1485ff78499e3bdb308"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/imgproc/segmentation.hpp"
+          },
+          "hashes": {
+            "md5": "26333119126e351ad034dac30373e3ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/ml.hpp"
+          },
+          "hashes": {
+            "md5": "319027e899b1de9078f021d8c35210f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/ml/ml.inl.hpp"
+          },
+          "hashes": {
+            "md5": "183165e185c379ff61c0611069b59ac0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/objdetect/aruco_detector.hpp"
+          },
+          "hashes": {
+            "md5": "04e302855467de2f6bd204a634a9fedf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/objdetect/aruco_dictionary.hpp"
+          },
+          "hashes": {
+            "md5": "79d2075dcb34553e1bf488fa97d2ce17"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/objdetect/aruco_board.hpp"
+          },
+          "hashes": {
+            "md5": "98b5a23a3e3d5bc50ac1ea49ad885cb1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/objdetect/graphical_code_detector.hpp"
+          },
+          "hashes": {
+            "md5": "ebf8e3f8d5df3f9f21ab1b2d925ef520"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/objdetect/face.hpp"
+          },
+          "hashes": {
+            "md5": "5826b09a93fbfeb1b60236b9f19c85b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/objdetect/charuco_detector.hpp"
+          },
+          "hashes": {
+            "md5": "eae1c2251e54d89c2b976bd0530f1cc9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/objdetect/barcode.hpp"
+          },
+          "hashes": {
+            "md5": "d9c151118e32763db34df0881d58daf5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/photo.hpp"
+          },
+          "hashes": {
+            "md5": "ea7d5f466fb4ee774c8dedb377431c30"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/stitching/warpers.hpp"
+          },
+          "hashes": {
+            "md5": "147d6ffd206158ff6bea975967b3d98e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/core/cuda_types.hpp"
+          },
+          "hashes": {
+            "md5": "3c98bbb9c58dc60e2f19e8ee51e6ef53"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/stitching/detail/warpers_inl.hpp"
+          },
+          "hashes": {
+            "md5": "c64195a0ff0a9d36d6f2bcea053cc515"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/stitching/detail/matchers.hpp"
+          },
+          "hashes": {
+            "md5": "2ef4acb940467d0af6196fdf48618284"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/stitching/detail/motion_estimators.hpp"
+          },
+          "hashes": {
+            "md5": "7c76c910ee7a14422083aafe3daf7721"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/stitching/detail/util.hpp"
+          },
+          "hashes": {
+            "md5": "c0b9c0506cf26a1e6b28fbd28963f25f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/stitching/detail/util_inl.hpp"
+          },
+          "hashes": {
+            "md5": "999b37b497ed7288a0308761aaaf202e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/stitching/detail/camera.hpp"
+          },
+          "hashes": {
+            "md5": "cf80ad639b305225bf8f9e0d7d3ab9ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/stitching/detail/exposure_compensate.hpp"
+          },
+          "hashes": {
+            "md5": "47f41239ad19db626deb88965ea62cc6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/stitching/detail/blenders.hpp"
+          },
+          "hashes": {
+            "md5": "eaed329561f7c574196a4ca0c5da423a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/video.hpp"
+          },
+          "hashes": {
+            "md5": "58e228ec1e68b48cc5bbca4a6c5cd53a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/video/tracking.hpp"
+          },
+          "hashes": {
+            "md5": "cf4be89c427dbe9295b1e6319e31860c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/opencv/opencv-vc-4.9.0-x64/build/include/opencv2/video/background_segm.hpp"
+          },
+          "hashes": {
+            "md5": "e8a9147a9b2c7d8a4aafefaac515e532"
+          }
+        }
+      ]
+    }
+  ]
+}

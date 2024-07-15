@@ -1,0 +1,16 @@
+﻿D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(自瞄.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  main.cpp
+C:\Users\Home\source\repos\自瞄\main.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\Home\source\repos\自瞄\main.cpp(23,56): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\Home\source\repos\自瞄\main.cpp(23,40): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\Home\source\repos\自瞄\main.cpp(72,66): warning C4244: “参数”: 从“double”转换到“DWORD”，可能丢失数据
+C:\Users\Home\source\repos\自瞄\main.cpp(72,44): warning C4244: “参数”: 从“double”转换到“DWORD”，可能丢失数据
+  自瞄.vcxproj -> C:\Users\Home\source\repos\自瞄\x64\Debug\aimlab.exe

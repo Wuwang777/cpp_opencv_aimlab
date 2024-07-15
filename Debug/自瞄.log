@@ -1,0 +1,36 @@
+﻿  main.cpp
+C:\Users\Home\source\repos\自瞄\main.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\Home\source\repos\自瞄\main.cpp(53,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\core\base.hpp(384): warning C26812: 枚举类型“cv::NormTypes”未设定范围。相比于 "enum"，首选 "enum class" (Enum.3)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\core\mat.hpp(66): warning C26812: 枚举类型“cv::AccessFlag”未设定范围。相比于 "enum"，首选 "enum class" (Enum.3)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\core\mat.hpp(266): warning C26812: 枚举类型“cv::debug_build_guard::_InputArray::KindFlag”未设定范围。相比于 "enum"，首选 "enum class" (Enum.3)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\core\mat.hpp(583): warning C26812: 枚举类型“cv::UMatData::MemoryFlag”未设定范围。相比于 "enum"，首选 "enum class" (Enum.3)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\core\mat.inl.hpp(1239): warning C26495: 未初始化变量 cv::MatStep::buf。始终初始化成员变量(type.6)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\core\mat.inl.hpp(1245): warning C26495: 未初始化变量 cv::MatStep::buf。始终初始化成员变量(type.6)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\core\operations.hpp(431): warning C26812: 枚举类型“cv::Formatter::FormatType”未设定范围。相比于 "enum"，首选 "enum class" (Enum.3)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\core\async.hpp(73): warning C26439: 可能不会 throw 此类型的函数。将其声明为 "noexcept" (f.6)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\flann\matrix.h(98): warning C26495: 未初始化变量 cvflann::UntypedMatrix::type。始终初始化成员变量(type.6)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\flann\saving.h(51): warning C26812: 枚举类型“cvflann::flann_datatype_t”未设定范围。相比于 "enum"，首选 "enum class" (Enum.3)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\flann\dist.h(85): warning C26451: 算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\flann\kdtree_index.h(57): warning C26812: 枚举类型“cvflann::flann_algorithm_t”未设定范围。相比于 "enum"，首选 "enum class" (Enum.3)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\flann\kmeans_index.h(63): warning C26812: 枚举类型“cvflann::flann_centers_init_t”未设定范围。相比于 "enum"，首选 "enum class" (Enum.3)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\flann\lsh_table.h(102): warning C26495: 未初始化变量 cvflann::lsh::LshStats::bucket_size_mean_。始终初始化成员变量(type.6)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\objdetect.hpp(154): warning C26451: 算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\objdetect.hpp(415): warning C26812: 枚举类型“cv::HOGDescriptor::HistogramNormType”未设定范围。相比于 "enum"，首选 "enum class" (Enum.3)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\objdetect\detection_based_tracker.hpp(150): warning C26812: 枚举类型“cv::DetectionBasedTracker::ObjectStatus”未设定范围。相比于 "enum"，首选 "enum class" (Enum.3)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\core\cuda.hpp(1015): warning C26812: 枚举类型“cv::cuda::Event::CreateFlags”未设定范围。相比于 "enum"，首选 "enum class" (Enum.3)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\core\cuda.inl.hpp(501): warning C26812: 枚举类型“cv::cuda::HostMem::AllocType”未设定范围。相比于 "enum"，首选 "enum class" (Enum.3)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\core\cuda.inl.hpp(734): warning C26812: 枚举类型“cv::cuda::FeatureSet”未设定范围。相比于 "enum"，首选 "enum class" (Enum.3)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\stitching\detail\warpers.hpp(188): warning C26495: 未初始化变量 cv::detail::RotationWarperBase<cv::detail::CompressedRectilinearProjector>::projector_。始终初始化成员变量(type.6)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\stitching\detail\seam_finders.hpp(128): warning C26812: 枚举类型“cv::detail::DpSeamFinder::CostFunction”未设定范围。相比于 "enum"，首选 "enum class" (Enum.3)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\stitching.hpp(201): warning C26812: 枚举类型“cv::InterpolationFlags”未设定范围。相比于 "enum"，首选 "enum class" (Enum.3)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\stitching.hpp(204): warning C26812: 枚举类型“cv::detail::WaveCorrectKind”未设定范围。相比于 "enum"，首选 "enum class" (Enum.3)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\flann\lsh_table.h(280): warning C26812: 枚举类型“cvflann::lsh::LshTable<unsigned char>::SpeedLevel”未设定范围。相比于 "enum"，首选 "enum class" (Enum.3)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\flann\any.h(120): warning C6269: 运算顺序可能不正确: 已忽略取消引用。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\core\utility.hpp(971): warning C26495: 未初始化变量 cv::AutoBuffer<__int64,1>::buf。始终初始化成员变量(type.6)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\core\matx.hpp(578): warning C6294: for 循环定义错误: 初始条件不满足测试。 循环体未执行。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\core\matx.hpp(578): warning C6201: 索引“3”超出了“0”至“2”的有效范围(对于可能在堆栈中分配的缓冲区“this->val”)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\core\matx.hpp(570): warning C6294: for 循环定义错误: 初始条件不满足测试。 循环体未执行。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\core\matx.hpp(570): warning C6201: 索引“2”超出了“0”至“1”的有效范围(对于可能在堆栈中分配的缓冲区“this->val”)。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\core\matx.hpp(586): warning C6294: for 循环定义错误: 初始条件不满足测试。 循环体未执行。
+D:\OpenCV\OpenCV-VC-4.9.0-x64\build\include\opencv2\core\matx.hpp(586): warning C6201: 索引“4”超出了“0”至“3”的有效范围(对于可能在堆栈中分配的缓冲区“this->val”)。
